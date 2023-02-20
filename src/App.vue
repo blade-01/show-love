@@ -1,22 +1,34 @@
 <script setup lang="ts">
-// https://github.com/vueuse/head
-// you can use this to manipulate the document head in any components,
-// they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Vue Boost',
-  meta: [{ name: 'description', content: 'Boost your productivity with V - work smarter, not harder.' }],
+  title: 'Show Love',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'We let you stay on top of your game by reminding you of Special dates and anniversaries,so you never have to forget to plan ahead and show your love through gifts.'
+    }
+  ],
   link: [
     {
       rel: 'icon',
-      type: 'image/svg+xml',
-      href: '/favicon.svg'
+      type: 'image',
+      href: '/favicon.ico'
     }
   ]
 })
 </script>
 
 <template>
-  <RouterView />
+  <TheHeader />
+  <HomeCTA />
+  <HomeMain />
+  <HomeCarousel />
+  <HomeNeeds />
+  <HomeTimeline />
+  <HomePadi />
+  <HomeFeatures />
+  <HomeSignup />
+  <TheFooter />
 </template>
 
 <style scoped></style>
