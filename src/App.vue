@@ -19,7 +19,7 @@ useHead({
 </script>
 
 <template>
-  <TheHeader />
+  <!-- <TheHeader /> -->
   <HomeCTA />
   <HomeMain />
   <HomeCarousel />
