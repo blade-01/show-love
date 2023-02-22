@@ -10,7 +10,8 @@ module.exports = {
         priText: '#2F2F2F',
       },
       fontFamily: {
-        public: ['Public Sans', 'sans-serif']
+        public: ['Public Sans', 'sans-serif'],
+        baloo: ['Baloo 2', 'cursive']
       },
       fontSize: {
         nl: ['56px', '64px']
