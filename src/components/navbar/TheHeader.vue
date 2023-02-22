@@ -10,7 +10,7 @@
     <div
       class="fixed top-0 left-1/2 -translate-x-1/2 text-primary rounded-[100px] blurred hidden lg:flex justify-between items-center gap-2.5 px-6 py-12 h-[73px] w-[413px]"
     >
-      <div v-for="{ name, route, active } in links">
+      <div v-for="{ name, route, active } in links" class="font-baloo">
         <a :href="route" :class="{ 'active-link': active }">{{ name }}</a>
       </div>
     </div>
