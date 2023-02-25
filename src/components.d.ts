@@ -7,18 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    BaseButton: typeof import('./components/reusables/BaseButton.vue')['default']
-    BaseEditor: typeof import('./components/reusables/BaseEditor.vue')['default']
-    BaseFile: typeof import('./components/reusables/BaseFile.vue')['default']
-    BaseInput: typeof import('./components/reusables/BaseInput.vue')['default']
-    BaseModal: typeof import('./components/reusables/BaseModal.vue')['default']
-    BasePhone: typeof import('./components/reusables/BasePhone.vue')['default']
-    BaseSelect: typeof import('./components/reusables/BaseSelect.vue')['default']
-    BaseSubmitBtn: typeof import('./components/reusables/BaseSubmitBtn.vue')['default']
-    BaseTable: typeof import('./components/reusables/BaseTable.vue')['default']
-    BaseTableAction: typeof import('./components/reusables/BaseTableAction.vue')['default']
-    BaseTextarea: typeof import('./components/reusables/BaseTextarea.vue')['default']
-    DashboardLayout: typeof import('./components/dashboard/DashboardLayout.vue')['default']
     HomeCarousel: typeof import('./components/home/HomeCarousel.vue')['default']
     HomeCTA: typeof import('./components/home/HomeCTA.vue')['default']
     HomeFeatures: typeof import('./components/home/HomeFeatures.vue')['default']
@@ -27,15 +15,7 @@ declare module '@vue/runtime-core' {
     HomePadi: typeof import('./components/home/HomePadi.vue')['default']
     HomeSignup: typeof import('./components/home/HomeSignup.vue')['default']
     HomeTimeline: typeof import('./components/home/HomeTimeline.vue')['default']
-    RouterLink: typeof import('vue-router')['RouterLink']
-    RouterView: typeof import('vue-router')['RouterView']
-    SampleButton: typeof import('./components/samples/SampleButton.vue')['default']
-    SampleForm: typeof import('./components/samples/SampleForm.vue')['default']
-    SampleModal: typeof import('./components/samples/SampleModal.vue')['default']
-    SampleTable: typeof import('./components/samples/SampleTable.vue')['default']
     TheFooter: typeof import('./components/navbar/TheFooter.vue')['default']
     TheHeader: typeof import('./components/navbar/TheHeader.vue')['default']
-    TheSidebar: typeof import('./components/navbar/TheSidebar.vue')['default']
-    TheTopbar: typeof import('./components/navbar/TheTopbar.vue')['default']
   }
 }
