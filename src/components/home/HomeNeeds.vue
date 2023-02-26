@@ -22,7 +22,7 @@
       </div>
       <img
         class="w-full lg:w-[480px] lg:h-[425px] mt-20 lg:mt-0 lg:ml-auto"
-        src="/img/homeneeds.svg"
+        src="/img/illus-02.svg"
         alt="Home Needs"
       />
     </div>

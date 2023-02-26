@@ -24,7 +24,7 @@
       </div>
       <img
         class="w-full mt-20 lg:mt-0 lg:w-[600px]"
-        src="/img/padi.svg"
+        src="/img/illus-04.svg"
         alt="Home Padi"
       />
     </div>
