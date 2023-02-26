@@ -14,9 +14,9 @@
         <p
           class="text-[12px] text-[#2F2F2F] leading-[19.2px] font-normal my-[20px] lg:text-[18px] lg:leading-[28.8px]"
         >
-          We take the lead and make loving easy, from gift sourcing and sorting
-          to delivery. You can trust us to pick the perfect gift and deliver to
-          your beneficiary without having to provide their addresses.
+          We take the lead and make loving easy, from gift sourcing and sorting to
+          delivery. You can trust us to pick the perfect gift and deliver to your
+          beneficiary without having to provide their addresses.
         </p>
         <button class="btn mx-auto lg:ml-0 lg:text-base">
           <img src="/img/apple-google.svg" />
@@ -25,7 +25,7 @@
       </div>
       <img
         class="mt-20 lg:mt-0 w-full lg:w-[520px] lg:rounded-[1rem]"
-        src="/img/hometimelinebg.svg"
+        src="/img/illus-03.svg"
       />
     </div>
   </div>
@@ -35,6 +35,6 @@
 
 <style scoped>
 .main-bg {
-  background: url("/img/base_map.svg");
+  @apply bg-[url("/img/base_map.svg")];
 }
 </style>
