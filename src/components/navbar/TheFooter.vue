@@ -1,5 +1,5 @@
 <template>
-  <div class="py-4 lg:py-8">
+  <footer class="py-4 lg:py-8">
     <div class="container">
       <div
         class="text-center lg:text-left lg:flex lg:justify-between lg:items-center"
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script setup lang="ts"></script>
