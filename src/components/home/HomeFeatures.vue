@@ -1,11 +1,11 @@
 <template>
   <div
-    class="section bg-[#020335] xl:h-[100vh] lg:flex lg:justify-center lg:items-center"
+    class="section bg-[#020335] xl:h-[100vh] md:flex md:justify-center md:items-center"
   >
     <div
-      class="container lg:grid lg:grid-cols-2 lg:gap-4 lg:place-items-center"
+      class="container md:grid md:grid-cols-2 md:gap-4 md:place-items-center"
     >
-      <div class="text-center lg:text-left xl:w-[552px]">
+      <div class="text-center md:text-left xl:w-[552px]">
         <p
           class="text-[#FAC764] font-bold leading-[21.6px] lg:leading-[32.4px] text-[12px] lg:text-[18px] uppercase"
         >
@@ -24,7 +24,9 @@
           bank. With a list of premium curated gifts from the best brands within
           a budget, your love can be expressed and felt for as low as 5k
         </p>
-        <div class="lg:flex justify-start items-center pt-[6rem] hidden">
+        <div
+          class="md:flex justify-start items-center md:pt-[3rem] pt-[6rem] hidden"
+        >
           <p
             class="text-[18px] lg:text-[24px] font-bold leading-[28.8px] lg:leading-[38.4px] text-[#989898]"
           >
@@ -36,9 +38,9 @@
           </div>
         </div>
       </div>
-      <div class="pt-[3.5rem] order-first">
+      <div class="pt-[3.5rem] md:pt-[0] order-first">
         <img src="/img/slider-01.svg" />
-        <div class="flex justify-center items-center pt-[2.5rem] lg:hidden">
+        <div class="flex justify-center items-center pt-[2.5rem] md:hidden">
           <p class="text-[18px] font-bold leading-[28.8px] text-[#989898]">
             <span class="text-white">01 </span>/ 03
           </p>

@@ -3,7 +3,7 @@
     class="section main-bg lg:h-[100vh] lg:flex lg:justify-center lg:items-center"
   >
     <div class="container">
-      <div class="text-center md:w-[600px] lg:w-[697px] lg:m-auto">
+      <div class="text-center md:w-[600px] lg:w-[697px] md:m-auto">
         <h1
           class="font-semibold text-[#ffffff] text-[20px] lg:text-[40px] lg:leading-[48px] lg:font-medium leading-[24px] py-[2.5rem]"
         >

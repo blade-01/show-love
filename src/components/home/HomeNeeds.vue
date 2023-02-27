@@ -1,10 +1,10 @@
 <template>
-  <div class="section bg-[#F3F2F5] lg:bg-transparent">
+  <div class="section bg-[#F3F2F5] md:bg-transparent">
     <div
-      class="text-center lg:text-left lg:grid lg:gap-4 lg:grid-cols-2 lg:items-center lg:place-items-center lg:container lg:bg-[#F3F2F5] lg:rounded-[18.0923px] 1xl:w-[1224px] lg:py-[3.5%] lg:px-[5%]"
+      class="text-center md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#F3F2F5] md:rounded-[18.0923px] 1xl:w-[1224px] md:py-[3.5%] md:px-[5%]"
     >
       <div class="container lg:w-[499px]">
-        <h1 class="title lg:font-semibold lg:leading-[58.8px] lg:text-[42px]">
+        <h1 class="title md:font-semibold lg:leading-[58.8px] lg:text-[42px]">
           What the world needs is Love and You
         </h1>
         <p
@@ -15,13 +15,13 @@
           celebrate
         </p>
         <button
-          class="btn mx-auto lg:m-0 lg:py-[22px] lg:px-[48px] leading-[19.2px] lg:font-semibold lg:text-base"
+          class="btn mx-auto md:m-0 md:py-[22px] md:px-[48px] leading-[19.2px] md:font-semibold md:text-base"
         >
           Get started
         </button>
       </div>
       <img
-        class="w-full lg:w-[480px] lg:h-[425px] mt-20 lg:mt-0 lg:ml-auto"
+        class="w-full lg:w-[480px] lg:h-[425px] mt-20 md:mt-0 md:ml-auto"
         src="/img/illus-02.svg"
         alt="Home Needs"
       />

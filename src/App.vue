@@ -1,21 +1,21 @@
 <script setup lang="ts">
 useHead({
-  title: 'Show Love',
+  title: "Show Love",
   meta: [
     {
-      name: 'description',
+      name: "description",
       content:
-        'We let you stay on top of your game by reminding you of Special dates and anniversaries,so you never have to forget to plan ahead and show your love through gifts.'
-    }
+        "We let you stay on top of your game by reminding you of Special dates and anniversaries,so you never have to forget to plan ahead and show your love through gifts.",
+    },
   ],
   link: [
     {
-      rel: 'icon',
-      type: 'image',
-      href: '/favicon.ico'
-    }
-  ]
-})
+      rel: "icon",
+      type: "image",
+      href: "/favicon.ico",
+    },
+  ],
+});
 </script>
 
 <template>
