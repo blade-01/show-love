@@ -1,7 +1,7 @@
 <template>
   <div class="section bg-[#F3F2F5] md:bg-transparent">
     <div
-      class="text-center md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#F3F2F5] md:rounded-[18.0923px] 1xl:w-[1224px] md:py-[3.5%] md:px-[5%]"
+      class="text-center md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#F3F2F5] md:rounded-[18px] 1xl:w-[1224px] md:py-[48px] md:px-[80px]"
     >
       <div class="container lg:w-[499px]">
         <h1 class="title md:font-semibold lg:leading-[58.8px] lg:text-[42px]">

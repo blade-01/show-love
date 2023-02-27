@@ -1,6 +1,6 @@
 <template>
   <div
-    class="section main-bg lg:h-[100vh] lg:flex lg:justify-center lg:items-center"
+    class="section main-bg lg:flex lg:justify-center lg:items-center"
   >
     <div class="container">
       <div class="text-center md:w-[600px] lg:w-[697px] md:m-auto">

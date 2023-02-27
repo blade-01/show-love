@@ -1,6 +1,6 @@
 <template>
   <div
-    class="section bg-[#020335] xl:h-[100vh] md:flex md:justify-center md:items-center"
+    class="section bg-[#020335]  md:flex md:justify-center md:items-center"
   >
     <div
       class="container md:grid md:grid-cols-2 md:gap-4 md:place-items-center"
