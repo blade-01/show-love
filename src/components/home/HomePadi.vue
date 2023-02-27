@@ -1,11 +1,11 @@
 <template>
   <div class="section bg-[#F3F2F5]">
     <div
-      class="text-center lg:text-left lg:container lg:grid lg:gap-4 lg:grid-cols-2 lg:items-center lg:place-items-center"
+      class="text-center md:text-left md:container md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center"
     >
       <div class="px-[10%]">
         <h1
-          class="title text-[28px] lg:text-[42px] lg:leading-[58.8px] lg:font-semibold"
+          class="title text-[28px] lg:text-[42px] lg:leading-[58.8px] md:font-semibold"
         >
           Show some love to your padi of life
         </h1>
@@ -17,13 +17,13 @@
           a budget, your love can be expressed and felt for as low as 5k
         </p>
         <button
-          class="btn mx-auto lg:ml-0 lg:py-[22px] lg:px-[48px] lg:text-base"
+          class="btn mx-auto md:ml-0 md:py-[22px] md:px-[48px] md:text-base"
         >
           Get started
         </button>
       </div>
       <img
-        class="w-full mt-20 lg:mt-0 lg:w-[600px]"
+        class="w-full mt-20 md:mt-0 lg:w-[600px]"
         src="/img/illus-04.svg"
         alt="Home Padi"
       />

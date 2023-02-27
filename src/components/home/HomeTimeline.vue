@@ -1,30 +1,30 @@
 <template>
-  <div class="pt-16 lg:pb-16 main-bg">
+  <div class="pt-16 md:pb-16 main-bg">
     <div
-      class="lg:text-left lg:grid lg:gap-4 lg:grid-cols-2 lg:items-center lg:place-items-center lg:container lg:bg-[#FFFFFF] lg:rounded-[18.0923px] 1xl:w-[1224px] lg:pl-[5%]"
+      class="md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#FFFFFF] md:rounded-[18.0923px] 1xl:w-[1224px] md:pl-[5%]"
     >
       <div
-        class="text-center lg:text-left text-[#2F2F2F] px-[10%] lg:px-[0] 1xl:w-[630px]"
+        class="text-center md:text-left text-[#2F2F2F] px-[10%] md:px-[0] md:py-[5%] lg:py-[0] 1xl:w-[630px]"
       >
         <h1
-          class="font-bold text-[28px] leading-[33.6px] lg:text-[42px] lg:leading-[58.8px] lg:font-semibold"
+          class="font-bold text-[28px] leading-[33.6px] lg:text-[42px] lg:leading-[58.8px] md:font-semibold"
         >
           In Every Timeline and Multiverse, your love counts
         </h1>
         <p
           class="text-[12px] text-[#2F2F2F] leading-[19.2px] font-normal my-[20px] lg:text-[18px] lg:leading-[28.8px]"
         >
-          We take the lead and make loving easy, from gift sourcing and sorting to
-          delivery. You can trust us to pick the perfect gift and deliver to your
-          beneficiary without having to provide their addresses.
+          We take the lead and make loving easy, from gift sourcing and sorting
+          to delivery. You can trust us to pick the perfect gift and deliver to
+          your beneficiary without having to provide their addresses.
         </p>
-        <button class="btn mx-auto lg:ml-0 lg:text-base">
+        <button class="btn mx-auto md:ml-0 md:text-base">
           <img src="/img/apple-google.svg" />
           Download the app
         </button>
       </div>
       <img
-        class="mt-20 lg:mt-0 w-full lg:w-[520px] lg:rounded-[1rem]"
+        class="mt-20 md:mt-0 w-full md:w-[520px] md:rounded-[1rem]"
         src="/img/illus-03.svg"
       />
     </div>

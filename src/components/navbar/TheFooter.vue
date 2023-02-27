@@ -1,13 +1,11 @@
 <template>
   <div class="py-4 lg:py-8">
     <div class="container">
-      <div
-        class="text-center lg:text-left lg:flex lg:justify-between lg:items-center"
-      >
+      <div class="text-center lg:flex lg:justify-between lg:items-center">
         <div class="lg:w-[373px]">
           <img class="mx-auto lg:ml-0" src="/img/logo.svg" alt="logo" />
           <p
-            class="text-[12px] lg:text-base lg:leading-[25.6px] leading-[19.2px] font-normal text-[#2F2F2F] py-4"
+            class="text-[12px] lg:text-base lg:leading-[25.6px] leading-[19.2px] font-normal text-[#2F2F2F] py-4 lg:text-left"
           >
             Gifts that suits every pocket; Show some love without breaking the
             bank.
