@@ -1,6 +1,7 @@
 <template>
   <div
-    class="section bg-[#020335] lg:h-[800px] flex justify-center items-center flex-col scroll-pt-16" id="features"
+    class="section bg-[#020335] lg:h-[800px] flex justify-center items-center flex-col scroll-pt-16"
+    id="features"
   >
     <div class="container">
       <div
@@ -20,11 +21,15 @@
             </p>
             <h6
               class="title font-semibold text-[28px] lg:text-[40px] leading-[33.6px] lg:leading-[50px] text-[#ffffff] pt-[30px] lg:pt-[50px] pb-[15px] lg:pb-[25px]"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               {{ slide.title }}
             </h6>
             <p
               class="text-[#FAFAFA] font-normal text-[12px] lg:text-[18px] lg:leading-[28.8px] leading-[19.2px]"
+              data-aos="fade"
+              data-aos-delay="500"
             >
               {{ slide.body }}
             </p>
