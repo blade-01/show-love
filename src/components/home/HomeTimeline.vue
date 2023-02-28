@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-16 md:pb-16 main-bg">
+  <div class="pt-16 md:pb-16 main-bg scroll-pt-16" id="download">
     <div
       class="md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#FFFFFF] md:rounded-[18.0923px] 1xl:w-[1224px] md:pl-[5%]"
     >
