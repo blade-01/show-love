@@ -4,11 +4,19 @@
       <div class="text-center md:w-[600px] lg:w-[697px] md:m-auto relative z-50">
         <h6
           class="font-semibold text-[#ffffff] text-[20px] lg:text-[40px] lg:leading-[48px] lg:font-medium leading-[24px] py-[2.5rem]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
         >
           Sign up today to create a virtual account and fund your wallet via card or
           virtual top-up
         </h6>
-        <button class="btn-signup w-[80%] md:w-[392.19px] md:h-[60.8px]">
+        <button
+          class="btn-signup w-[80%] md:w-[392.19px] md:h-[60.8px]"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-delay="500"
+          data-aos-offset="0"
+        >
           <img class="mr-2" src="/img/apple-google.svg" />
           Sign up
         </button>
@@ -48,7 +56,7 @@
 .main-bg::before {
   top: 0;
   height: 50%;
-  background:  linear-gradient(180deg, #020335 0%, rgba(2, 3, 53, 0) 100%);
+  background: linear-gradient(180deg, #020335 0%, rgba(2, 3, 53, 0) 100%);
 }
 
 .btn-signup {
