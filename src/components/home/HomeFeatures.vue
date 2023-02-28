@@ -1,6 +1,6 @@
 <template>
   <div
-    class="section bg-[#020335] lg:h-[800px] flex justify-center items-center flex-col"
+    class="section bg-[#020335] lg:h-[800px] flex justify-center items-center flex-col scroll-pt-16" id="features"
   >
     <div class="container">
       <div
