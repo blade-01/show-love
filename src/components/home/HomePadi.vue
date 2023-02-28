@@ -4,11 +4,11 @@
       class="text-center md:text-left md:container md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center"
     >
       <div class="px-[10%]">
-        <h1
+        <h5
           class="title text-[28px] lg:text-[42px] lg:leading-[58.8px] md:font-semibold"
         >
           Show some love to your padi of life
-        </h1>
+        </h5>
         <p
           class="font-normal text-[12px] lg:text-[18px] lg:leading-[28.8px] leading-[19.2px] py-[20px]"
         >
