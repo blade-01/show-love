@@ -6,11 +6,11 @@
       <div
         class="text-center md:text-left text-[#2F2F2F] px-[10%] md:px-[0] md:py-[5%] lg:py-[0] 1xl:w-[630px]"
       >
-        <h1
+        <h4
           class="font-bold text-[28px] leading-[33.6px] lg:text-[42px] lg:leading-[58.8px] md:font-semibold"
         >
           In Every Timeline and Multiverse, your love counts
-        </h1>
+        </h4>
         <p
           class="text-[12px] text-[#2F2F2F] leading-[19.2px] font-normal my-[20px] lg:text-[18px] lg:leading-[28.8px]"
         >
