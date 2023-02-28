@@ -27,12 +27,12 @@ const links = ref([
   {
     name: 'Home',
     route: '#',
-    active: false
+    active: true
   },
   {
     name: 'Features',
     route: '#features',
-    active: true
+    active: false
   },
   {
     name: 'Download',
