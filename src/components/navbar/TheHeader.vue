@@ -1,8 +1,8 @@
 <template>
   <div class="container lg:mb-[100px]">
-    <div class="flex justify-center md:justify-between items-center">
+    <div class="flex justify-center lg:justify-between items-center">
       <img src="/img/logo.svg" alt="Show Love Logo" />
-      <button class="btn bg-[#020335] hidden md:flex">
+      <button class="btn bg-[#020335] hidden lg:flex">
         <img src="/img/apple-google.svg" alt="Apple_Google_logo" />
         <span>Download the app</span>
       </button>
@@ -10,8 +10,8 @@
     <div
       class="fixed z-50 top-0 left-1/2 -translate-x-1/2 text-primary rounded-[100px] blurred hidden lg:flex justify-between items-center gap-2.5 px-6 py-12 h-[73px] w-[413px]"
     >
-      <div v-for="{ name, route, active } in links" class="font-baloo">
-        <a :href="route" :class="{ 'active-link': active }">{{ name }}</a>
+      <div v-for="{ name, route, active } in links">
+        <a :href="route" :class="{ 'active-link': active }" class="font-baloo">{{ name }}</a>
       </div>
     </div>
   </div>
