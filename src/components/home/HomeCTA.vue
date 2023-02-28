@@ -15,7 +15,7 @@
           and anniversaries, so you never have to forget to plan ahead and show
           your love through gifts.
         </p>
-        <button class="btn lg:font-bold">
+        <button class="btn hover:scale-100 custom-shadow lg:font-bold">
           <img src="/img/small-barcode.svg" alt="small-barcode" />
           <span>GET THE APP</span>
         </button>
@@ -31,5 +31,8 @@
 .main-bg {
   background: #f3f2f5;
   background-image: url("/img/main-bg.svg");
+}
+.custom-shadow {
+  box-shadow: 0px 1px 24px rgba(162, 91, 255, 0.4);
 }
 </style>
