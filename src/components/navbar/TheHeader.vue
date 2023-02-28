@@ -8,33 +8,46 @@
       </button>
     </div>
     <div
-      class="fixed z-50 top-0 left-1/2 -translate-x-1/2 text-primary rounded-[100px] blurred hidden lg:flex justify-between items-center gap-2.5 px-6 py-12 h-[73px] w-[413px]"
+      class="fixed z-[1000] top-0 left-1/2 -translate-x-1/2 text-primary rounded-[100px] blurred hidden lg:flex justify-between items-center gap-2.5 px-12 py-[22px] h-[73px] w-[417px]"
     >
-      <div v-for="{ name, route, active } in links">
-        <a :href="route" :class="{ 'active-link': active }" class="font-baloo">{{ name }}</a>
+      <div v-for="(link, index) in links" :key="index" @click="handleRouting(link)">
+        <a
+          :href="link.route"
+          :class="{ 'active-link': link.active }"
+          class="font-baloo"
+          >{{ link.name }}</a
+        >
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const links = [
+const links = ref([
   {
     name: 'Home',
     route: '#',
-    active: true
+    active: false
   },
   {
     name: 'Features',
-    route: '#',
-    active: false
+    route: '#features',
+    active: true
   },
   {
     name: 'Download',
-    route: '#',
+    route: '#download',
     active: false
   }
-]
+])
+
+const handleRouting = (status: { name: string; route: string; active: boolean }) => {
+  links.value.forEach((link) => (link.active = false))
+  status.active = !status.active
+  console.log(status)
+  // if (status) status = false
+  // else status = true
+}
 </script>
 
 <style scoped>
