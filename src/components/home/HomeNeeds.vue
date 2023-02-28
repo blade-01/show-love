@@ -4,9 +4,9 @@
       class="text-center md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#F3F2F5] md:rounded-[18px] 1xl:w-[1224px] md:py-[48px] md:px-[80px]"
     >
       <div class="container lg:w-[499px]">
-        <h1 class="title md:font-semibold lg:leading-[58.8px] lg:text-[42px]">
+        <h3 class="title md:font-semibold lg:leading-[58.8px] lg:text-[42px]">
           What the world needs is Love and You
-        </h1>
+        </h3>
         <p
           class="font-normal text-[12px] lg:text-[18px] lg:leading-[28.8px] leading-[19.2px] py-[20px]"
         >
