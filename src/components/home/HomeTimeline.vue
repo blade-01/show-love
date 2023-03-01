@@ -1,7 +1,7 @@
 <template>
   <div class="pt-16 md:pb-16 main-bg scroll-pt-16" id="download">
     <div
-      class="md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-[#FFFFFF] md:rounded-[18.0923px] 1xl:w-[1224px] md:pl-[5%]"
+      class="md:text-left md:grid md:gap-14 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-white md:rounded-[18.0923px] 1xl:w-[1224px] md:pl-[80px]"
     >
       <div
         class="text-center md:text-left text-[#2F2F2F] px-[10%] md:px-[0] md:py-[5%] lg:py-[0] 1xl:w-[630px]"
