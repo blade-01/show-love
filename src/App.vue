@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 AOS.init({
   duration: 800,
-  once: true
-})
+  once: true,
+});
 useHead({
   title: "Show Love",
   meta: [
@@ -27,7 +27,7 @@ useHead({
 <template>
   <!-- <TheHeader /> -->
   <HomeCTA />
-  <HomeMain />
+  <!-- <HomeMain /> -->
   <HomeCarousel />
   <HomeNeeds />
   <HomeTimeline />
