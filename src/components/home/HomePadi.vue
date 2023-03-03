@@ -31,7 +31,7 @@
         </button>
       </div>
       <img
-        class="w-full mt-20 md:mt-0"
+        class="w-full mt-20 md:mt-0 order-first"
         src="/img/illus-04.svg"
         alt="Home Padi"
       />
