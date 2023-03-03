@@ -2,9 +2,9 @@
   <!-- .main-bg -->
   <div class="pt-16 md:pb-16 bg-[#F3F2F5] scroll-pt-16" id="download">
     <!-- md:bg-white md:rounded-[18.0923px] -->
-    <!-- 1xl:w-[1224px] md:pl-[80px] -->
+    <!-- 1xl:w-[1224px] -->
     <div
-      class="md:text-left md:grid md:gap-14 md:grid-cols-2 md:items-center md:place-items-center md:container"
+      class="md:text-left md:grid md:gap-14 md:grid-cols-2 md:items-center md:place-items-center md:container md:pl-[80px]"
     >
       <div
         class="text-center md:text-left text-[#2F2F2F] px-[10%] md:px-[0] md:py-[5%] lg:py-[0] 1xl:w-[517px]"
