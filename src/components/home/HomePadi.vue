@@ -3,7 +3,7 @@
     <div
       class="text-center md:text-left md:container md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center"
     >
-      <div class="px-[10%]">
+      <div class="px-[10%] xl:w-[600px]">
         <h5
           class="title text-[28px] lg:text-[42px] lg:leading-[58.8px] md:font-semibold"
           data-aos="fade-up"

@@ -4,7 +4,7 @@
     <div
       class="text-center md:text-left md:grid md:gap-4 md:grid-cols-2 md:items-center md:place-items-center md:container"
     >
-      <div class="container lg:w-[499px]">
+      <div class="container 1xl:w-[499px]">
         <h3
           class="title md:font-semibold lg:leading-[58.8px] lg:text-[42px]"
           data-aos="fade-up"
