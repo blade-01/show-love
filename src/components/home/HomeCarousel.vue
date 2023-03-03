@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-4 pb-12 main-bg relative">
+  <div class="py-4 mb-12 main-bg relative">
     <div class="container homemain">
       <div class="text-center px-2 lg:w-[749px] lg:mx-auto">
         <h2
@@ -20,7 +20,9 @@
         </p>
       </div>
     </div>
-    <div class="slider m-auto overflow-hidden relative max-w-[1500px]">
+    <div
+      class="slider opacity-[0.5] m-auto overflow-hidden relative max-w-[1500px]"
+    >
       <!-- <div class=""> -->
       <div class="slide-track gap-4">
         <div class="slide" v-for="image in images" :key="image">
@@ -72,7 +74,8 @@ const images: string[] = [
 }
 .slider .slide {
   width: 270px;
-  height: 395px;
+  /* height: 395px; */
+  height: 380px;
 }
 
 .main-bg {
