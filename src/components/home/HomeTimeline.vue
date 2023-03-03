@@ -1,7 +1,9 @@
 <template>
-  <div class="pt-16 md:pb-16 main-bg scroll-pt-16" id="download">
+  <!-- .main-bg -->
+  <div class="pt-16 md:pb-16 bg-[#F3F2F5] scroll-pt-16" id="download">
+    <!-- md:bg-white md:rounded-[18.0923px] -->
     <div
-      class="md:text-left md:grid md:gap-14 md:grid-cols-2 md:items-center md:place-items-center md:container md:bg-white md:rounded-[18.0923px] 1xl:w-[1224px] md:pl-[80px]"
+      class="md:text-left md:grid md:gap-14 md:grid-cols-2 md:items-center md:place-items-center md:container 1xl:w-[1224px] md:pl-[80px]"
     >
       <div
         class="text-center md:text-left text-[#2F2F2F] px-[10%] md:px-[0] md:py-[5%] lg:py-[0] 1xl:w-[630px]"
@@ -18,9 +20,9 @@
           data-aos="fade"
           data-aos-delay="500"
         >
-          We take the lead and make loving easy, from gift sourcing and sorting to
-          delivery. You can trust us to pick the perfect gift and deliver to your
-          beneficiary without having to provide their addresses.
+          We take the lead and make loving easy, from gift sourcing and sorting
+          to delivery. You can trust us to pick the perfect gift and deliver to
+          your beneficiary without having to provide their addresses.
         </p>
         <button
           class="btn mx-auto md:ml-0 md:text-base"
@@ -34,9 +36,10 @@
         </button>
       </div>
       <img
-        class="mt-20 md:mt-0 w-full md:w-[520px] md:rounded-[1rem]"
+        class="mt-20 md:mt-0 w-full md:rounded-[1rem]"
         src="/img/illus-03.svg"
       />
+      <!-- md:w-[520px] -->
     </div>
   </div>
 </template>
