@@ -15,6 +15,7 @@ declare module '@vue/runtime-core' {
     HomePadi: typeof import('./components/home/HomePadi.vue')['default']
     HomeSignup: typeof import('./components/home/HomeSignup.vue')['default']
     HomeTimeline: typeof import('./components/home/HomeTimeline.vue')['default']
+    Illus01: typeof import('./components/home/Illus01.vue')['default']
     TheFooter: typeof import('./components/navbar/TheFooter.vue')['default']
     TheHeader: typeof import('./components/navbar/TheHeader.vue')['default']
   }

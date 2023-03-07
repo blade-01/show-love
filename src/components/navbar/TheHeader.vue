@@ -1,5 +1,5 @@
 <template>
-  <div class="container lg:mb-[100px]">
+  <div class="container mb-[60px] lg:mb-[100px]">
     <div class="flex justify-center lg:justify-between items-center">
       <img src="/img/logo.svg" alt="Show Love Logo" />
       <button class="btn bg-[#020335] hidden lg:flex">
