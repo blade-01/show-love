@@ -29,7 +29,7 @@
 
 <style scoped>
 .main-bg {
-  background-image: url('/img/signup-bg.png'), url('/img/slant-bg.svg');
+  background-image: url('/img/signup.svg'), url('/img/slant-bg.svg');
   background-position: top 0 left 50%, bottom 0 left 0;
   position: relative;
   z-index: 100;
