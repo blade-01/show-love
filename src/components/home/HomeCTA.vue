@@ -1,19 +1,19 @@
 <template>
-  <div class="py-5 main-bg">
+  <div class="py-5 main-bg h-screen overflow-hidden md:h-auto">
     <TheHeader />
-    <div class="container flex flex-col justify-center items-center">
+    <div class="container md:flex flex-col justify-center md:h-[calc(100vh-60px)] overflow-visible mb-5">
       <div
-        class="md:w-[500px] lg:w-[740px] mx-auto flex flex-col justify-center items-center text-center"
+        class="md:w-[500px] lg:w-[730px] mx-auto flex flex-col justify-center items-center text-center"
       >
         <h1
-          class="text-[#070707] mb-4 lg:mb-6 text-[42px] leading-[66.11px] lg:text-[72px] lg:leading-[113.33px] font-bold mt-12 lg:mt-0"
+          class="text-[#070707] mb-4 lg:mb-6 text-[34px] sm:text-[45px] leading-[66.11px] lg:text-[72px] lg:leading-[113.33px] font-bold"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
         >
           Show <span class="text-primary">Some</span> Love
         </h1>
         <p
-          class="mb-4 lg:mb-6 text-priTex text-sm lg:text-lg"
+          class="mb-4 lg:mb-6 text-priText text-sm lg:text-lg"
           data-aos="fade"
           data-aos-delay="500"
         >
@@ -32,14 +32,30 @@
           <span>GET THE APP</span>
         </button>
       </div>
-      <img
+      <Illus01
+        data-aos="fade-up"
+        data-aos-delay="650"
+        data-aos-duration="700"
+        class="hidden sm:block w-full"
+      />
+    </div>
+    <img
+        src="/img/mobile-illus.svg"
+        alt="illustration"
+        data-aos="fade-up"
+        data-aos-delay="650"
+        data-aos-duration="700"
+        class="w-full h-[285px] lg:h-auto sm:hidden"
+      />
+      <!-- <img
         src="/img/illus-01.svg"
         alt="illustration"
         data-aos="fade-up"
         data-aos-delay="650"
         data-aos-duration="700"
+        class="w-full hidden sm:flex"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 
