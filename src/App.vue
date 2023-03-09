@@ -41,9 +41,7 @@ useHead({
 </script>
 
 <template>
-  <!-- <TheHeader /> -->
   <HomeCTA />
-  <!-- <HomeMain /> -->
   <HomeCarousel />
   <HomeNeeds />
   <HomeTimeline />
